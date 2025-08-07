@@ -203,7 +203,7 @@ body {
   }
 
   .about-img img {
-    width: 300px; /* increase if needed */
+    width: 500px; /* increase if needed */
     margin-bottom: 20px;
   }
 
@@ -385,9 +385,7 @@ section {
     
    
 }
-.technical-bars {
-    border: 2px solid red;
-}
+
 @keyframes animate {
     100%{
         transform: scaleX(1);
@@ -926,7 +924,7 @@ html {
     padding: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .skills-container {
     flex-direction: column;
     align-items: flex-start !important;
@@ -967,6 +965,7 @@ html {
     margin-left: auto;
   }
 }
+
 
 
 
