@@ -203,7 +203,7 @@ body {
   }
 
   .about-img img {
-    width: 500px; /* increase if needed */
+    width: 800px; /* increase if needed */
     margin-bottom: 20px;
   }
 
@@ -345,7 +345,7 @@ section {
     margin-left: 120px;
 }
 .heading1{
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness:5px;
@@ -366,6 +366,7 @@ section {
 }
 .technical-bars .bar .info {
     margin-bottom: 5px;
+    text-align:left
 }
 .technical-bars .bar .info span {
     font-size: 17px;
@@ -375,7 +376,7 @@ section {
 }
 .technical-bars .bar .progress-line {
     position: relative;
-    border-radius: 10px;
+    border-radius: 30px;
     width: 100%;
     height: 5px;
     background-color: #000;
@@ -965,6 +966,7 @@ html {
     margin-left: auto;
   }
 }
+
 
 
 
