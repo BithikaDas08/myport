@@ -927,17 +927,40 @@ html {
   .skills-container {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 2rem;
   }
 
   .technical-bars {
-    width: 90%;
+    width: 100%;
+    align-self: flex-start;
     text-align: left;
     margin-left: 0;
-    align-self: flex-start;
   }
 
   .technical-bars .bar {
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .technical-bars .bar .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+
+  .technical-bars .bar .info span {
+    flex: 1;
+    white-space: nowrap;
+  }
+
+  .technical-bars .bar .info .percent {
+    flex: 0;
+    margin-left: auto;
   }
 }
 
