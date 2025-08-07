@@ -385,6 +385,9 @@ section {
     
    
 }
+.technical-bars {
+    border: 2px solid red;
+}
 @keyframes animate {
     100%{
         transform: scaleX(1);
@@ -963,6 +966,7 @@ html {
     margin-left: auto;
   }
 }
+
 
 
 
